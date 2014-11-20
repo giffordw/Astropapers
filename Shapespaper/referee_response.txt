@@ -1,0 +1,33 @@
+Referee Response 1:
+
+We thank the referee for their helpful comments on the submitted draft. Below we address the referee's concerns one by one:
+
+- The paper was rather hard to read, there are many typos, unfinished sentences, spelling errors, reference errors etc.
+
+We have identified and corrected the typos and reference errors.
+
+
+- I am a little confused as to what exactly are the assumptions and what is callibrated. If I understand correctly, the assumptions that are made are:
+1. all clusters have NFW density profiles
+2. the NFW profiles are assumed to have the same concentration
+3. the density and potential profiles are simply related (i.e. spherical)
+
+The goal of this study was to find a way to eliminate the the use/calibration of F_beta in a way that can be accomplished through real observational data alone. Because the escape velocity technique relies on the input of the density and potential profiles to estimate the mass, and we do not have knowledge of these profiles in real data, assuming an NFW shape fits our halos allows us to move forward without calibration via simulations. As we point out in the text, the only estimate we must now input is the concentration (for both 3D and projected) and the velocity anisotropy profile (only projected case). In Figure 2 (right) and Figure 3 (right) we show how assuming an NFW profile affects our mass estimates compared with actually using the density and potential profiles measured in the Millennium Simulation.
+It is only in the projected, non-ideal knowledge case (Figure 3 right) that we assume the NFW profiles have the same average concentration of 5 +/- 2. In the 3D test, we use the concentrations for each halo measured via the density profile discussed in 3.1.  In the text we point out that the bias we recover in mass using an NFW (Figure 2 right) compared with the ideal 3D case (Figure 2 left) is exactly because of the assumption that clusters are NFW's.
+When we assume that our clusters have NFW shapes, we make the assumption that the density and potential profiles are simply related. This assumption is not made for the ideal knowledge cases (Figure 2 & 3 left)
+
+- Firstly, I am surprised by the overall accuracy of the technique. The authors "test" projection effects by taking the 3D velocities of galaxies that lie within the 3D virial radius and using just two of the components. Thus the need to model the anisotropy parameter. 
+(ii) It is not clear from this paper or the longer paper, whether of not the authors take "real projection effects" into account. i.e. galaxies that lie along the line of sight but are not within the virial region of the cluster. if the authors only took the galaxies within the 3D virial radius of the clusters, and the clusters themeselves were identified in 3D, then the claimed accuracy and tests of the techniques would need to be redone since this is not applicable to real data. observed clusters are found in projection and galaxy membership is uncertain.
+
+We do not take just the 3D velocities of galaxies that lie within the 3D virial radius for our projected studies. We thank the referee for pointing our that we have not made this clear in our draft, and have added a sentence in section 3.3 that clarifies that we include all galaxies within 30Mpc in our projection. Our results are then consistent with real data the projection effects.
+
+- (i) Why does the scatter go up from 3D to 2D if the anisotropy parameter is not important (words from Section 4.)
+It is not the author's intent to imply that the anisotropy parameter is not important in projected studies. In fact, we argue just the opposite when we say in section 3.3: "However, incorrect velocity anisotropies do impart a systematic bias. For instance, when we impose $\langle \beta \rangle = 0.0 \pm{0.2}$  the average bias changes from -10\% to -18\%. An estimate of $\langle \beta \rangle = 0.4 \pm{0.2}$ results in an average bias of +5\%." What the author's wish to make clear is that even large uncertainties in the anisotropy parameter do not dominate over uncertainty do to variations in the line-of-sight velocity dispersions. In the GMK draft that has also been submitted and provided for the referee, the authors find the line-of-sight uncertainty in velocity dispersions are on the order of 20-25%, while an uncertainty in an average beta = 0.2 +/- 0.2 only contributes ~10%. This will not appreciably increase the scatter if added in quadrature to recover the total scatter in mass.
+
+- (iii) In figure 1, the authors find a systematic bias between concentrations measured using the potential and density - this demonstrates assumption 3 is not correct. however, using this assumption the authors don't find a bias between inferred and true masses. how can this be the case?
+
+This is exactly what we show in the comparison of Figure 2 left and right. When we use the measured values for the density and potential profiles, our mass estimates are unbiased. When we assume that the profiles are of NFW shape and are simply related, we find a -10% bias in the recovered mass.
+
+- (iv) galaxy surveys sample red/blue galaxies. these have different spatial and kinematical distributions. how can you argue for a single concentration fits all model?
+
+Measuring and estimating a concentration for the dark matter density profile is no trivial matter with observed data. As the referee points out, deciding which galaxies trace this distribution can affect the estimate. Other factors such as how many galaxies are observed and the non-sphericity of the system can also contribute to the uncertainty. This is why in section 3.3 we concede that we cannot measure the concentrations individually and instead estimate the masses using an average concentration of 5 +/- 2 for each system. Because the escape velocity technique is relatively insensitive to the concentration relative to the velocity dispersion, average anisotropy parameter, etc., we do not see the scatter or bias change due to this assumption in Figure 3 (right).
